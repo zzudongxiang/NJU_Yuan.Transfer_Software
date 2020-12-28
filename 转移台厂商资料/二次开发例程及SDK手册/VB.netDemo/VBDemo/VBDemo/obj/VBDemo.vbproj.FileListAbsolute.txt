@@ -1,0 +1,10 @@
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\bin\Debug\VBDemo.exe
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\bin\Debug\VBDemo.pdb
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\bin\Debug\VBDemo.xml
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\VBDemo.Form1.resources
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\VBDemo.Resources.resources
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\VBDemo.vbproj.GenerateResource.Cache
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\VBDemo.exe
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\VBDemo.xml
+E:\Projects\Easy Studio2\VB.netDemo\VBDemo\VBDemo\obj\Debug\VBDemo.pdb

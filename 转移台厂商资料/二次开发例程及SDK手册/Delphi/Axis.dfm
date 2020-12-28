@@ -1,0 +1,754 @@
+object AxisFrm: TAxisFrm
+  Left = 0
+  Top = 0
+  Width = 497
+  Height = 700
+  TabOrder = 0
+  object grp_Ch: TGroupBox
+    Left = 3
+    Top = 0
+    Width = 486
+    Height = 673
+    Caption = 'grp_Ch'
+    TabOrder = 0
+    object grp_Hardware: TGroupBox
+      Left = 10
+      Top = 21
+      Width = 231
+      Height = 196
+      Caption = #30828#20214#37197#32622
+      TabOrder = 0
+      object Label3: TLabel
+        Left = 14
+        Top = 26
+        Width = 24
+        Height = 13
+        Caption = #31867#22411
+      end
+      object Label4: TLabel
+        Left = 16
+        Top = 56
+        Width = 24
+        Height = 13
+        Caption = #32454#20998
+      end
+      object Label5: TLabel
+        Left = 16
+        Top = 88
+        Width = 48
+        Height = 13
+        Caption = #34746#36317'(mm)'
+      end
+      object Label6: TLabel
+        Left = 16
+        Top = 123
+        Width = 46
+        Height = 13
+        Caption = #20256#21160#27604'1:'
+      end
+      object cbb_Kind: TComboBox
+        Left = 72
+        Top = 23
+        Width = 120
+        Height = 21
+        Style = csDropDownList
+        ItemIndex = 0
+        TabOrder = 0
+        Text = #24179#31227#21488
+        OnChange = cbb_KindChange
+        Items.Strings = (
+          #24179#31227#21488
+          #26059#36716#21488)
+      end
+      object cbb_Div: TComboBox
+        Left = 72
+        Top = 53
+        Width = 120
+        Height = 21
+        Style = csDropDownList
+        ItemIndex = 3
+        TabOrder = 1
+        Text = '8'
+        Items.Strings = (
+          '1'
+          '2'
+          '4'
+          '8'
+          '16'
+          '32'
+          '64'
+          '128')
+      end
+      object cbb_Pitchs: TComboBox
+        Left = 72
+        Top = 85
+        Width = 120
+        Height = 21
+        Style = csDropDownList
+        ItemIndex = 0
+        TabOrder = 2
+        Text = '0.25'
+        Items.Strings = (
+          '0.25'
+          '0.5'
+          '1.0'
+          '1.5'
+          '2.0'
+          '5.0'
+          '10.0'
+          '20.0')
+      end
+      object cbb_Ratios: TComboBox
+        Left = 72
+        Top = 120
+        Width = 120
+        Height = 21
+        Style = csDropDownList
+        Enabled = False
+        ItemIndex = 0
+        TabOrder = 3
+        Text = '60'
+        Items.Strings = (
+          '60'
+          '120'
+          '180'
+          '200'
+          '240'
+          '360')
+      end
+      object btn_Hardware: TBitBtn
+        Left = 66
+        Top = 152
+        Width = 100
+        Height = 38
+        Caption = #35774#32622
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 4
+        OnClick = btn_HardwareClick
+      end
+    end
+    object grp_Param: TGroupBox
+      Left = 248
+      Top = 21
+      Width = 231
+      Height = 196
+      Caption = #36816#21160#21442#25968
+      TabOrder = 1
+      object lb_Acc: TLabel
+        Left = 10
+        Top = 23
+        Width = 74
+        Height = 13
+        Caption = #21152#36895#24230'(mm/s'#178')'
+      end
+      object lbl_Dec: TLabel
+        Left = 11
+        Top = 55
+        Width = 74
+        Height = 13
+        Caption = #20943#36895#24230'(mm/s'#178')'
+      end
+      object lbl_Max_V: TLabel
+        Left = 10
+        Top = 90
+        Width = 129
+        Height = 13
+        Caption = #20301#32622#27169#24335#26368#22823#36895#24230'(mm/s)'
+      end
+      object btn_Param: TBitBtn
+        Left = 3
+        Top = 152
+        Width = 100
+        Height = 41
+        Caption = #35774#32622
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 0
+        OnClick = btn_ParamClick
+      end
+      object edt_Acc: TEdit
+        Left = 136
+        Top = 20
+        Width = 81
+        Height = 21
+        TabOrder = 1
+        Text = '0.1'
+      end
+      object edt_Dec: TEdit
+        Left = 136
+        Top = 53
+        Width = 81
+        Height = 21
+        TabOrder = 2
+        Text = '0.1'
+      end
+      object edt_Max_V: TEdit
+        Left = 136
+        Top = 119
+        Width = 81
+        Height = 21
+        TabOrder = 3
+        Text = '1'
+      end
+      object btn_Save: TBitBtn
+        Left = 115
+        Top = 152
+        Width = 100
+        Height = 41
+        Caption = #20445#23384
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 4
+        OnClick = btn_SaveClick
+      end
+    end
+    object grp_Motion: TGroupBox
+      Left = 10
+      Top = 222
+      Width = 469
+      Height = 243
+      Caption = #36816#21160
+      TabOrder = 2
+      object lbl_Home: TLabel
+        Left = 309
+        Top = 160
+        Width = 144
+        Height = 28
+        Caption = #36127#20540#21521#36127#26041#21521#25214'0'#20301#65292#27491#20540#21521#27491#26041#21521#25214'0'#20301
+        WordWrap = True
+      end
+      object rb_V: TRadioButton
+        Left = 16
+        Top = 24
+        Width = 113
+        Height = 17
+        Caption = #36895#24230#27169#24335'(mm/s)'
+        TabOrder = 0
+        OnClick = rb_VClick
+      end
+      object rb_Position: TRadioButton
+        Left = 264
+        Top = 24
+        Width = 113
+        Height = 17
+        Caption = #20301#32622#27169#24335'(mm)'
+        Checked = True
+        TabOrder = 1
+        TabStop = True
+        OnClick = rb_PositionClick
+      end
+      object btn_Pos_Abs: TBitBtn
+        Left = 359
+        Top = 47
+        Width = 100
+        Height = 40
+        Caption = #32477#23545#31227#21160
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 2
+        OnClick = btn_Pos_AbsClick
+      end
+      object btn_Pos_Rel: TBitBtn
+        Left = 359
+        Top = 93
+        Width = 100
+        Height = 40
+        Caption = #30456#23545#31227#21160
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 3
+        OnClick = btn_Pos_RelClick
+      end
+      object btn_Set_Stop: TBitBtn
+        Left = 117
+        Top = 202
+        Width = 100
+        Height = 38
+        Caption = #20572#27490
+        DoubleBuffered = True
+        Kind = bkCancel
+        ParentDoubleBuffered = False
+        TabOrder = 4
+        OnClick = btn_Set_StopClick
+      end
+      object btn_Set_Halt: TBitBtn
+        Left = 252
+        Top = 202
+        Width = 100
+        Height = 38
+        Caption = #24613#20572
+        DoubleBuffered = True
+        Kind = bkCancel
+        ParentDoubleBuffered = False
+        TabOrder = 5
+        OnClick = btn_Set_HaltClick
+      end
+      object btn_V: TBitBtn
+        Left = 131
+        Top = 47
+        Width = 100
+        Height = 40
+        Caption = #32477#23545#35843#36895
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 6
+        OnClick = btn_VClick
+      end
+      object edt_Abs: TEdit
+        Left = 259
+        Top = 55
+        Width = 81
+        Height = 21
+        TabOrder = 7
+        Text = '1'
+      end
+      object edt_Rel: TEdit
+        Left = 259
+        Top = 103
+        Width = 81
+        Height = 21
+        TabOrder = 8
+        Text = '1'
+      end
+      object edt_Mode_V_Abs: TEdit
+        Left = 34
+        Top = 56
+        Width = 81
+        Height = 21
+        TabOrder = 9
+        Text = '1'
+      end
+      object btn_V_Ref: TBitBtn
+        Left = 131
+        Top = 91
+        Width = 100
+        Height = 40
+        Caption = #30456#23545#35843#36895
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 10
+        OnClick = btn_V_RefClick
+      end
+      object edt_Mode_V_Ref: TEdit
+        Left = 34
+        Top = 101
+        Width = 81
+        Height = 21
+        TabOrder = 11
+        Text = '1'
+      end
+      object btn_Home: TBitBtn
+        Left = 191
+        Top = 156
+        Width = 100
+        Height = 40
+        Caption = #26597#25214#38646#20301
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 12
+        OnClick = btn_HomeClick
+      end
+      object rb_Home: TRadioButton
+        Left = 16
+        Top = 134
+        Width = 113
+        Height = 17
+        Caption = #38646#20301#27169#24335'(mm/s)'
+        TabOrder = 13
+        OnClick = rb_HomeClick
+      end
+      object edt_Home_V: TEdit
+        Left = 66
+        Top = 165
+        Width = 81
+        Height = 21
+        TabOrder = 14
+        Text = '1'
+      end
+    end
+    object grp_Status: TGroupBox
+      Left = 14
+      Top = 471
+      Width = 469
+      Height = 106
+      Caption = #29366#24577
+      TabOrder = 3
+      object Label2: TLabel
+        Left = 18
+        Top = 53
+        Width = 48
+        Height = 13
+        Caption = #24403#21069#20301#32622
+      end
+      object lbl_15: TLabel
+        Left = 18
+        Top = 79
+        Width = 48
+        Height = 13
+        Caption = #24403#21069#36895#24230
+      end
+      object chk_Run: TCheckBox
+        Left = 18
+        Top = 20
+        Width = 97
+        Height = 17
+        Caption = #36816#34892#29366#24577
+        TabOrder = 0
+      end
+      object chk_Zero: TCheckBox
+        Left = 145
+        Top = 20
+        Width = 97
+        Height = 17
+        Caption = '0'#20301#29366#24577
+        TabOrder = 1
+      end
+      object chk_Neg: TCheckBox
+        Left = 248
+        Top = 20
+        Width = 97
+        Height = 17
+        Caption = #36127#38480#20301#29366#24577
+        TabOrder = 2
+      end
+      object chk_Pos: TCheckBox
+        Left = 361
+        Top = 20
+        Width = 97
+        Height = 17
+        Caption = #27491#38480#20301#29366#24577
+        TabOrder = 3
+      end
+      object edt_Show_Software: TEdit
+        Left = 121
+        Top = 50
+        Width = 121
+        Height = 21
+        TabOrder = 4
+      end
+      object edt_Show_V: TEdit
+        Left = 121
+        Top = 79
+        Width = 121
+        Height = 21
+        TabOrder = 5
+      end
+      object btn_Zero: TBitBtn
+        Left = 264
+        Top = 53
+        Width = 100
+        Height = 38
+        Caption = #32622'0'#20301
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 6
+        OnClick = btn_ZeroClick
+      end
+      object chk_Read: TCheckBox
+        Left = 390
+        Top = 64
+        Width = 63
+        Height = 17
+        Caption = #35835#29366#24577
+        TabOrder = 7
+        OnClick = chk_ReadClick
+      end
+    end
+    object grp_Software_Limit: TGroupBox
+      Left = 14
+      Top = 583
+      Width = 469
+      Height = 87
+      Caption = #36719#20214#38480#20301'(mm)'
+      TabOrder = 4
+      object lbl_1: TLabel
+        Left = 12
+        Top = 21
+        Width = 36
+        Height = 13
+        Caption = #36127#38480#20301
+      end
+      object lbl_11: TLabel
+        Left = 12
+        Top = 54
+        Width = 36
+        Height = 13
+        Caption = #27491#38480#20301
+      end
+      object edt_Software_Limit_Neg: TEdit
+        Left = 121
+        Top = 18
+        Width = 80
+        Height = 21
+        TabOrder = 0
+        Text = '-1000'
+      end
+      object edt_Software_Limit_Pos: TEdit
+        Left = 121
+        Top = 51
+        Width = 80
+        Height = 21
+        TabOrder = 1
+        Text = '1000'
+      end
+      object btn_Set_Software_Limit_Value: TBitBtn
+        Left = 213
+        Top = 29
+        Width = 111
+        Height = 38
+        Caption = #35774#32622#38480#20301#33539#22260
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 2
+        OnClick = btn_Set_Software_Limit_ValueClick
+      end
+      object btn_Soft_Limit_Enable: TBitBtn
+        Left = 338
+        Top = 8
+        Width = 111
+        Height = 38
+        Caption = #20351#33021#36719#38480#20301
+        DoubleBuffered = True
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000001000000000000000000000000000
+          80000080000000808000800000008000800080800000C0C0C000808080000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333333333
+          3333333333333333333333330000333333333333333333333333F33333333333
+          00003333344333333333333333388F3333333333000033334224333333333333
+          338338F3333333330000333422224333333333333833338F3333333300003342
+          222224333333333383333338F3333333000034222A22224333333338F338F333
+          8F33333300003222A3A2224333333338F3838F338F33333300003A2A333A2224
+          33333338F83338F338F33333000033A33333A222433333338333338F338F3333
+          0000333333333A222433333333333338F338F33300003333333333A222433333
+          333333338F338F33000033333333333A222433333333333338F338F300003333
+          33333333A222433333333333338F338F00003333333333333A22433333333333
+          3338F38F000033333333333333A223333333333333338F830000333333333333
+          333A333333333333333338330000333333333333333333333333333333333333
+          0000}
+        ModalResult = 1
+        NumGlyphs = 2
+        ParentDoubleBuffered = False
+        TabOrder = 3
+        OnClick = btn_Soft_Limit_EnableClick
+      end
+      object btn_Soft_Limit_Disable: TBitBtn
+        Left = 338
+        Top = 52
+        Width = 111
+        Height = 38
+        Caption = #31105#27490#36719#38480#20301
+        DoubleBuffered = True
+        Kind = bkCancel
+        ParentDoubleBuffered = False
+        TabOrder = 4
+        OnClick = btn_Soft_Limit_DisableClick
+      end
+    end
+  end
+  object hint_Motor: TCnHintWindow
+    HintPosition = hpUpLeft
+    Alignment = taLeftJustify
+    HintStyle = hsAuto
+    Left = 224
+    Top = 120
+  end
+  object tmr_Axis: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = tmr_AxisTimer
+    Left = 232
+    Top = 224
+  end
+end

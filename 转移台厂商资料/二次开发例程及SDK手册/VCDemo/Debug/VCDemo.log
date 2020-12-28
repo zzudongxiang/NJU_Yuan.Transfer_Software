@@ -1,0 +1,26 @@
+﻿生成启动时间为 2019/8/11 18:06:59。
+     1>项目“H:\真空转移台\二次开发例程及SDK手册\VCDemo\VCDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /Zp4 /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\VCDemo.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gz /TP /analyze- /errorReport:prompt VCDemo.cpp VCDemoDlg.cpp
+         VCDemoDlg.cpp
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.h(81): error C2504: “CDialog2”: 未定义基类
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(92): error C2248: “CWnd::DoDataExchange”: 无法访问 protected 成员(在“CWnd”类中声明)
+         d:\vs2015\vc\atlmfc\include\afxwin.h(2914): note: 参见“CWnd::DoDataExchange”的声明
+         d:\vs2015\vc\atlmfc\include\afxwin.h(2176): note: 参见“CWnd”的声明
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(92): error C2352: “CWnd::DoDataExchange”: 非静态成员函数的非法调用
+         d:\vs2015\vc\atlmfc\include\afxwin.h(2914): note: 参见“CWnd::DoDataExchange”的声明
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(136): error C2065: “OnBtnAcc2”: 未声明的标识符
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(294): error C2039: “OnBtnAcc2”: 不是“CVCDemoDlg”的成员
+         h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.h(14): note: 参见“CVCDemoDlg”的声明
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(299): error C2065: “m_Acc2”: 未声明的标识符
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(299): error C2228: “.GetWindowTextA”的左边必须有类/结构/联合
+         h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(299): note: 类型是“unknown-type”
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.cpp(306): error C2660: “MessageBoxA”: 函数不接受 1 个参数
+         VCDemo.cpp
+     1>h:\真空转移台\二次开发例程及sdk手册\vcdemo\vcdemodlg.h(81): error C2504: “CDialog2”: 未定义基类
+         正在生成代码...
+     1>已完成生成项目“H:\真空转移台\二次开发例程及SDK手册\VCDemo\VCDemo.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.11

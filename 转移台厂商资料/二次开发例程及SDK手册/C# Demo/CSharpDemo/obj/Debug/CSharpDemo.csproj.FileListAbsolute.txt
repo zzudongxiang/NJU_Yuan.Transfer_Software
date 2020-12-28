@@ -1,0 +1,17 @@
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\obj\Debug\CSharpDemo.Form1.resources
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\obj\Debug\CSharpDemo.Properties.Resources.resources
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\obj\Debug\CSharpDemo.csproj.GenerateResource.Cache
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\bin\Debug\CSharpDemo.exe
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\bin\Debug\CSharpDemo.pdb
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\obj\Debug\CSharpDemo.exe
+E:\Projects\Easy Studio2\CSharp Demo\CSharpDemo\obj\Debug\CSharpDemo.pdb
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\bin\Debug\CSharpDemo.exe
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\bin\Debug\CSharpDemo.pdb
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.Form1.resources
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.Properties.Resources.resources
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.exe
+C:\Users\ASUS\Desktop\二次开发例程及SDK手册\C# Demo\CSharpDemo\obj\Debug\CSharpDemo.pdb

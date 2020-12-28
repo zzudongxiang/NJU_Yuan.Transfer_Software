@@ -1,0 +1,28 @@
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.Properties.Resources.resources
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\bin\Debug\GamePad.exe
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\bin\Debug\GamePad.pdb
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\bin\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\bin\Debug\SharpDX.dll
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\bin\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.csproj.CopyComplete
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.exe
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.pdb
+C:\Users\ASUS\Desktop\NJU_Project\GamePad\obj\Debug\GamePad.WindowsForm.resources
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\bin\Debug\GamePad.exe
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\bin\Debug\GamePad.pdb
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\bin\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\bin\Debug\SharpDX.DirectInput.dll
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\bin\Debug\SharpDX.dll
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\bin\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.Properties.Resources.resources
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.WindowsForm.resources
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.csproj.CopyComplete
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.exe
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\GamePad\obj\Debug\GamePad.pdb

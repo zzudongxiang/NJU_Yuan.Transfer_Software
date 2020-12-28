@@ -1,0 +1,16 @@
+C:\Users\ASUS\Desktop\NJU_Project\Library\bin\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU_Project\Library\bin\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU_Project\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NJU_Project\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NJU_Project\Library\obj\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU_Project\Library\obj\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU_Project\Library\obj\Debug\Library.ExceptionBox.resources
+C:\Users\ASUS\Desktop\NJU_Project\Library\obj\Debug\Library.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\bin\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\bin\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\obj\Debug\Library.ExceptionBox.resources
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\obj\Debug\Library.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\obj\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\Library\obj\Debug\Library.pdb

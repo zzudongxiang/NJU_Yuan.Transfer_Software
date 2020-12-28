@@ -1,0 +1,24 @@
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\bin\Debug\MTDevice.exe
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\bin\Debug\MTDevice.pdb
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.Properties.Resources.resources
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.exe
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.pdb
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\bin\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\bin\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.WindowsForm.resources
+C:\Users\ASUS\Desktop\NJU_Project\MTDevice\obj\Debug\MTDevice.csproj.CopyComplete
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\bin\Debug\MTDevice.exe
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\bin\Debug\MTDevice.pdb
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\bin\Debug\Library.dll
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\bin\Debug\Library.pdb
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.Properties.Resources.resources
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.WindowsForm.resources
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.csproj.CopyComplete
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.exe
+C:\Users\ASUS\Desktop\NJU 转移台资料\NJU_Project\MTDevice\obj\Debug\MTDevice.pdb
